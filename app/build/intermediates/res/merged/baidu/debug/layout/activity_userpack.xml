@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.touyuanren.hahahuyu.ui.activity.users.UserpackActivity">
+
+    <include layout="@layout/common_header_bar"
+        android:id="@+id/include3"></include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/include3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/layout_15dp"
+            android:layout_marginTop="@dimen/layout_15dp"
+            android:layout_marginRight="@dimen/layout_15dp"
+            android:layout_weight="1"
+            android:elevation="@dimen/layout_10dp"
+            android:background="@drawable/userpack_btn_bg" >
+
+            <View
+                android:background="@color/zhusediao"
+                android:layout_width="@dimen/dimen_5dp"
+                android:layout_height="@dimen/layout_15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="@dimen/layout_20dp"
+                android:id="@+id/view2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_pack_yue"
+                android:id="@+id/textView18"
+                android:layout_toEndOf="@+id/view2"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/layout_30dp"
+                android:layout_marginLeft="@dimen/layout_10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/layout_30dp"
+                android:layout_toRightOf="@+id/textView18"
+                android:layout_marginLeft="@dimen/layout_10dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_up_yue" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/layout_15dp"
+            android:layout_marginTop="@dimen/layout_15dp"
+            android:layout_marginRight="@dimen/layout_15dp"
+            android:layout_weight="1"
+            android:background="@drawable/userpack_btn_bg"
+            android:elevation="@dimen/layout_10dp" >
+
+            <View
+                android:background="@color/zhusediao"
+                android:layout_width="@dimen/dimen_5dp"
+                android:layout_height="@dimen/layout_15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="@dimen/layout_20dp"
+                android:id="@+id/view3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_pack_zb"
+                android:id="@+id/textView19"
+                android:layout_toEndOf="@+id/view3"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/layout_30dp"
+                android:layout_marginLeft="@dimen/layout_10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/layout_30dp"
+                android:layout_toRightOf="@+id/textView19"
+                android:layout_marginLeft="@dimen/layout_10dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_up_zbi" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/layout_15dp"
+            android:layout_marginTop="@dimen/layout_15dp"
+            android:layout_marginRight="@dimen/layout_15dp"
+            android:layout_weight="1"
+            android:background="@drawable/userpack_btn_bg"
+            android:elevation="@dimen/layout_10dp" >
+
+            <View
+                android:background="@color/zhusediao"
+                android:layout_width="@dimen/dimen_5dp"
+                android:layout_height="@dimen/layout_15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="@dimen/layout_20dp"
+                android:id="@+id/view4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_pack_xianhua"
+                android:id="@+id/textView20"
+                android:layout_toEndOf="@+id/view4"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/layout_30dp"
+                android:layout_marginLeft="@dimen/layout_10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/layout_30dp"
+                android:layout_toRightOf="@+id/textView20"
+                android:layout_marginLeft="@dimen/layout_10dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_up_xianhua" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/layout_15dp"
+            android:layout_marginTop="@dimen/layout_15dp"
+            android:layout_marginRight="@dimen/layout_15dp"
+            android:layout_weight="1"
+            android:background="@drawable/userpack_btn_bg"
+            android:elevation="@dimen/layout_10dp" >\
+
+            <View
+                android:background="@color/zhusediao"
+                android:layout_width="@dimen/dimen_5dp"
+                android:layout_height="@dimen/layout_15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="@dimen/layout_20dp"
+                android:id="@+id/view5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_pack_gongzi"
+                android:id="@+id/textView21"
+                android:layout_toEndOf="@+id/view5"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/layout_30dp"
+                android:layout_marginLeft="@dimen/layout_10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/layout_30dp"
+                android:layout_toRightOf="@+id/textView21"
+                android:layout_marginLeft="@dimen/layout_10dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_up_dongjiejine" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/layout_15dp"
+            android:background="@drawable/userpack_btn_bg"
+            android:elevation="@dimen/layout_10dp">
+
+            <View
+                android:background="@color/zhusediao"
+                android:layout_width="@dimen/dimen_5dp"
+                android:layout_height="@dimen/layout_15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="@dimen/layout_20dp"
+                android:id="@+id/view6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_pack_yajin"
+                android:id="@+id/textView22"
+                android:layout_toEndOf="@+id/view6"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/layout_30dp"
+                android:layout_marginLeft="@dimen/layout_10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/layout_30dp"
+                android:layout_toRightOf="@+id/textView22"
+                android:layout_marginLeft="@dimen/layout_10dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_up_yajin" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

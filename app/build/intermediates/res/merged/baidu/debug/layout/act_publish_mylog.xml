@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <!--发布个人状态日志-->
+        <include
+            android:id="@+id/include"
+            layout="@layout/common_header_bar"></include>
+
+        <EditText
+            android:id="@+id/et_log_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/include"
+            android:layout_margin="@dimen/layout_15dp"
+            android:background="@null"
+            android:hint="@string/please_input_title"
+            android:padding="@dimen/layout_7dp"
+            android:singleLine="true"
+            android:textColorHint="@color/edit_text_color"
+            android:textSize="@dimen/title_size" />
+
+            <EditText
+                android:id="@+id/et_pub_log_content"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@null"
+                android:gravity="top|start"
+                android:hint="@string/pub_loop_hint"
+                android:padding="@dimen/layout_7dp"
+                android:layout_margin="@dimen/layout_15dp"
+                android:textColorHint="@color/edit_text_color"
+                android:textSize="@dimen/text_size" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcv_select_pic_publishlog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|start"
+                android:layout_margin="@dimen/layout_15dp"
+                android:layout_gravity="left|bottom" />
+
+        <!--<Button-->
+        <!--android:id="@+id/btn_fabu_log"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="@dimen/layout_10dp"-->
+        <!--android:background="@drawable/rect_white"-->
+        <!--android:paddingBottom="@dimen/dimen_5dp"-->
+        <!--android:paddingLeft="@dimen/layout_20dp"-->
+        <!--android:paddingRight="@dimen/layout_20dp"-->
+        <!--android:paddingTop="@dimen/dimen_5dp"-->
+        <!--android:text="@string/fabu"-->
+        <!--android:textSize="@dimen/size_16" />-->
+
+</LinearLayout>

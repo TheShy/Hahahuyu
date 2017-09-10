@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_header_bar"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_holo_dark" />
+
+    <ScrollView
+        android:id="@+id/scrollview_huodong_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/haibao_detatil_activity"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/haibao" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:id="@+id/title_activity_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/xuanmei"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/browse_activity_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_activity_detail"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/liulan_account"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/collect_count_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_activity_detail"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/browse_activity_detail"
+                    android:text="@string/collect_count"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_price_ticket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_activity_detail"
+                    android:layout_marginLeft="@dimen/dimen_5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/collect_count_detail"
+                    android:drawableLeft="@drawable/details_ticket_price"
+                    android:text="@string/price_ticket"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/number_people"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_activity_detail"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/tv_price_ticket"
+                    android:text="@string/join_number_people"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/separate_line_detail"
+                    style="@style/divide_line2"
+                    android:layout_below="@id/browse_activity_detail" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/tv_huodong_detail"
+                    android:text="123456" />
+
+                <TextView
+                    android:id="@+id/time_activity_detail"
+                    style="@style/tv_huodong_detail"
+                    android:text="@string/time_activity_detail" />
+            </LinearLayout>
+
+            <View style="@style/divide_line2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/tv_huodong_detail"
+                    android:text="@string/baoming_end_time" />
+
+                <TextView
+                    style="@style/tv_huodong_detail"
+                    android:text="@string/time_activity_detail" />
+            </LinearLayout>
+
+            <View style="@style/divide_line2" />
+
+            <TextView
+                android:id="@+id/address_activity_detail"
+                style="@style/tv_huodong_detail"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:drawableLeft="@drawable/details_location"
+                android:drawablePadding="4dp"
+                android:text="@string/address_activity_detail" />
+
+            <View style="@style/divide_line2" />
+
+            <TextView
+                android:id="@+id/zhubanfang_activity_detail"
+                style="@style/tv_huodong_detail"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:text="@string/zhubanfang" />
+
+            <View style="@style/divide_line2" />
+
+            <RadioGroup
+                android:id="@+id/rg_huodong_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="49dp"
+                android:layout_gravity="bottom"
+                android:background="@color/color_F9F9F9"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="2dp">
+
+                <RadioButton
+                    android:id="@+id/rb_huodongmsg"
+                    style="@style/huodong_detail_tab_bottom"
+                    android:text="@string/huodong_detail" />
+
+                <RadioButton
+                    android:id="@+id/rb_topic_huodong"
+                    style="@style/huodong_detail_tab_bottom"
+                    android:text="@string/topic_huodong" />
+
+                <RadioButton
+                    android:id="@+id/rb_album_huodong"
+                    style="@style/huodong_detail_tab_bottom"
+                    android:text="@string/album" />
+
+                <RadioButton
+                    android:id="@+id/rb_hongbaoWall_huodong"
+                    style="@style/huodong_detail_tab_bottom"
+                    android:text="@string/hongbao_wall" />
+
+                <RadioButton
+                    android:id="@+id/rb_programme_huodong"
+                    style="@style/huodong_detail_tab_bottom"
+                    android:text="@string/programme_huodong" />
+            </RadioGroup>
+
+            <View style="@style/divide_line2" />
+
+            <FrameLayout
+                android:id="@+id/fl_huodogn_detail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--<View style="@style/divide_line"></View>-->
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/collect_detail_activity"
+            style="@style/text_botton_detail"
+            android:background="#c0c0c0"
+            android:drawableTop="@drawable/collect_huodong"
+            android:text="@string/collect" />
+
+        <TextView
+            android:id="@+id/buy_ticket_detail"
+            style="@style/text_botton_detail"
+            android:background="@color/color_red"
+            android:clickable="true"
+            android:text="@string/baoming_immediately"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

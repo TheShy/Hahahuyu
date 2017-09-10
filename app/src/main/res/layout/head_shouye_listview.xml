@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:scrollbarThumbVertical="@color/color_FA9C26">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_frag_shouye"
+            android:layout_width="match_parent"
+            android:layout_height="175dp" />
+
+        <LinearLayout
+            android:id="@+id/viewGroup_frag_shouye"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"></LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/huodong_frag_shouye"
+            style="@style/divi_frag_shouye"
+            android:drawableTop="@drawable/fragment_type_calendar_bg"
+            android:text="@string/huodong"
+            android:background="@drawable/btn_selector_white_grey_rect"
+            android:clickable="true"
+            android:textColor="@color/color_app_text" />
+
+        <TextView
+            android:id="@+id/game_frag_shouye"
+            style="@style/divi_frag_shouye"
+            android:drawableTop="@drawable/fragment_type_near_bg"
+            android:text="@string/game"
+            android:background="@drawable/btn_selector_white_grey_rect"
+            android:clickable="true"
+            android:textColor="@color/color_app_text" />
+
+        <TextView
+            android:id="@+id/tv_shangcheng_shouye"
+            style="@style/divi_frag_shouye"
+            android:clickable="true"
+            android:drawableTop="@drawable/fragment_type_hots_bg"
+            android:text="@string/shangcheng"
+            android:background="@drawable/btn_selector_white_grey_rect"
+            android:textColor="@color/color_app_text" />
+
+        <TextView
+            style="@style/divi_frag_shouye"
+            android:clickable="true"
+            android:drawableTop="@drawable/fragment_type_zhaopin_bg"
+            android:text="@string/zhaopin"
+            android:background="@drawable/btn_selector_white_grey_rect"
+            android:textColor="@color/color_app_text"
+            android:id="@+id/tv_zhaopin_shouye" />
+
+        <TextView
+            android:id="@+id/more_shouye_frag"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/fragment_type_news_bg"
+            android:gravity="center"
+            android:text="@string/more"
+            android:background="@drawable/btn_selector_white_grey_rect"
+            android:textColor="@color/color_app_text" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_shouye"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingBottom="30dp"
+        android:paddingEnd="@dimen/dimen_5dp"
+        android:paddingLeft="@dimen/dimen_5dp"
+        android:paddingRight="@dimen/dimen_5dp"
+        android:paddingStart="@dimen/dimen_5dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_app_text"
+        android:drawableLeft="@drawable/homeicon_recommend"
+        android:drawablePadding="4dp"
+        android:text="@string/recommend"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp" />
+</LinearLayout>

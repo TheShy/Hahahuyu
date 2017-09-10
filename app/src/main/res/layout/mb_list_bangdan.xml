@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:gravity="center_vertical"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/ima_mb_bangdan"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:padding="@dimen/dimen_5dp"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/nickname_mb_bangdan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ima_mb_bangdan"
+        android:text="@string/nickname_player" />
+
+    <TextView
+        android:id="@+id/jifen_mb_bangdan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nickname_mb_bangdan"
+        android:layout_toRightOf="@id/ima_mb_bangdan"
+        android:text="@string/jifen" />
+
+</RelativeLayout>

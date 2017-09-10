@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_header_bar"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/mb_grid"></View>
+
+    <ListView
+        android:id="@+id/lv_collect_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <FrameLayout
+        android:id="@+id/fl_no_collect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/no_huodong_collect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/nohuodong"
+                android:textSize="@dimen/text_size" />
+
+            <Button
+                android:id="@+id/btn_search_hd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/no_huodong_collect"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/accu_push_btn_normal"
+                android:text="@string/search_activity"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+    </FrameLayout>
+</LinearLayout>

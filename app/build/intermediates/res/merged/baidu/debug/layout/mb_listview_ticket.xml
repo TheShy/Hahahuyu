@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+   >
+
+    <ImageView
+        android:id="@+id/poster_activity"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_launcher" />
+    <TextView
+        android:id="@+id/name_activity_mb"
+        android:layout_toRightOf="@id/poster_activity"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:text="@string/xuanmei"
+        android:textSize="19sp"/>
+    <TextView
+        android:id="@+id/address_activity_mb"
+        android:layout_toRightOf="@id/poster_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_activity_mb"
+        android:text="@string/address_haidian"
+        android:textSize="19sp"/>
+    <TextView
+        android:id="@+id/time_activity_mb"
+        android:layout_toRightOf="@id/address_activity_mb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_activity_mb"
+        android:layout_marginLeft="5dp"
+        android:text="@string/time_activity_mb"
+        android:textSize="19sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/poster_activity"
+        android:layout_below="@id/address_activity_mb"
+        android:layout_marginTop="3dp"
+        android:text="@string/free_activity"
+        android:textSize="19sp"
+        android:textColor="@color/gold"/>
+
+</RelativeLayout>

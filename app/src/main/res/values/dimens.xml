@@ -1,0 +1,67 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dimen_1dp">1dp</dimen>
+    <dimen name="layout_1dp">1dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_3dp">3dp</dimen>
+    <dimen name="space_size">2dp</dimen>
+    <dimen name="bottom_tab_padding_up">2.0dip</dimen>
+    <dimen name="layout_3dp">3dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="layout_7dp">7dp</dimen>
+    <dimen name="layout_10dp">10dp</dimen>
+    <dimen name="layout_12dp">12dp</dimen>
+    <dimen name="layout_14dp">14dp</dimen>
+    <dimen name="layout_15dp">15dp</dimen>
+    <dimen name="layout_16dp">16dp</dimen>
+    <dimen name="layout_20dp">20dp</dimen>
+    <dimen name="layout_24dp">24dp</dimen>
+    <dimen name="layout_30dp">30dp</dimen>
+    <dimen name="layout_36dp">36dp</dimen>
+    <dimen name="layout_40dp">40dp</dimen>
+    <dimen name="layout_45dp">45dp</dimen>
+    <dimen name="layout_48dp">48dp</dimen>
+    <dimen name="layout_50dp">50dp</dimen>
+    <dimen name="layout_70dp">70dp</dimen>
+
+    <dimen name="layout_175dp">175dp</dimen>
+
+    <dimen name="folder_cover_size">72dp</dimen>
+    <dimen name="image_size">120dp</dimen>
+
+    <dimen name="layout_9dp">9dp</dimen>
+
+    <dimen name="layout_150dp">150dp</dimen>
+    <!--分割线height-->
+    <dimen name="item_space">0.2sp</dimen>
+    <!--标题-->
+    <dimen name="title_size">19sp</dimen>
+    <!--距离边框最短距离-->
+    <dimen name="margin_frame">13dp</dimen>
+    <!--button按钮高度-->
+    <dimen name="button_height">40dp</dimen>
+
+    <!--首页轮滑-->
+    <dimen name="card_padding">60dp</dimen>
+
+
+    <!--底部菜单栏-->
+    <dimen name="space_navigation_height">72dp</dimen>
+    <dimen name="main_content_height">50dp</dimen>
+    <dimen name="space_centre_button_default_size">56dp</dimen>
+    <dimen name="space_centre_button_margin">6dp</dimen>
+    <dimen name="centre_content_width">110dp</dimen>
+    <dimen name="space_item_icon_default_size">18dp</dimen>
+    <dimen name="space_item_icon_only_size">25dp</dimen>
+    <dimen name="space_item_text_default_size">14sp</dimen>
+    <dimen name="badge_left_margin">5dp</dimen>
+    <dimen name="view_bottom_margin">50dp</dimen>
+
+
+    <!--城市选择，定位-->
+    <dimen name="side_letter_bar_letter_size">12sp</dimen>
+    <dimen name="side_letter_bar_width">36dp</dimen>
+    <dimen name="city_text_size">16sp</dimen>
+</resources>

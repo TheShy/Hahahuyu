@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9371e9520418f19fc4edc703de3a9580007a01f4\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\mainactivity_rotate_left.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\mainactivity_rotate_left.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\quit_fullscreen.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4a2603c0e30ea36ceb529b339707d2b3e2eb223a\\output\\res\\anim\\quit_fullscreen.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\anim_right_out.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\anim_right_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\mainactivity_push_bottom_in.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\mainactivity_push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\mainactivity_push_bottom_out.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\mainactivity_push_bottom_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d2f050f7b4b4d7e0f464c327d7b9b837592de8d2\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9371e9520418f19fc4edc703de3a9580007a01f4\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d2f050f7b4b4d7e0f464c327d7b9b837592de8d2\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9371e9520418f19fc4edc703de3a9580007a01f4\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\anim_publish_in.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\anim_publish_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d2f050f7b4b4d7e0f464c327d7b9b837592de8d2\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9371e9520418f19fc4edc703de3a9580007a01f4\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9371e9520418f19fc4edc703de3a9580007a01f4\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9371e9520418f19fc4edc703de3a9580007a01f4\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\mainactivity_rotate_right.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\mainactivity_rotate_right.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\actionsheet_dialog_in.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9371e9520418f19fc4edc703de3a9580007a01f4\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d2f050f7b4b4d7e0f464c327d7b9b837592de8d2\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9371e9520418f19fc4edc703de3a9580007a01f4\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\anim_left_in.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\anim_left_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\start_fullscreen.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4a2603c0e30ea36ceb529b339707d2b3e2eb223a\\output\\res\\anim\\start_fullscreen.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d2f050f7b4b4d7e0f464c327d7b9b837592de8d2\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9371e9520418f19fc4edc703de3a9580007a01f4\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\actionsheet_dialog_out.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\anim_publish_out.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\anim_publish_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d2f050f7b4b4d7e0f464c327d7b9b837592de8d2\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\mainactivity_fade_out.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\mainactivity_fade_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\mainactivity_fade_in.xml",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\anim\\mainactivity_fade_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9371e9520418f19fc4edc703de3a9580007a01f4\\output\\res\\anim\\abc_slide_in_top.xml"
+    }
+]

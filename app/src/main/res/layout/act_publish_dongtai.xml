@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_header_bar"></include>
+        <EditText
+            android:id="@+id/et_dongtai_publish"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="top|start"
+            android:hint="@string/please_input_dongtai"
+            android:textColor="@color/color_app_text"
+            android:textSize="@dimen/text_size"
+            android:background="@null"
+            android:layout_margin="@dimen/layout_15dp" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcv_select_pic_publishdongtai"
+            android:layout_below="@+id/et_dongtai_publish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_15dp"/>
+
+</LinearLayout>

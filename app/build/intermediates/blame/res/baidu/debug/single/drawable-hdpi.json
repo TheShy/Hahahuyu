@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-hdpi\\near_me.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\generated\\res\\pngs\\baidu\\debug\\drawable-hdpi\\near_me.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-hdpi\\sort_icon_bg_click.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-hdpi\\sort_icon_bg_click.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-hdpi\\pencil.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\generated\\res\\pngs\\baidu\\debug\\drawable-hdpi\\pencil.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-hdpi\\touxiang.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-hdpi\\touxiang.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-hdpi\\newlogin_bg.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-hdpi\\newlogin_bg.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-hdpi\\ic_bookmark_24dp.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\generated\\res\\pngs\\baidu\\debug\\drawable-hdpi\\ic_bookmark_24dp.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

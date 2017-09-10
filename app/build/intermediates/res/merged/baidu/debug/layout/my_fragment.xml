@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="@color/whiteNew"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/my_bgm">
+                <com.touyuanren.hahahuyu.widget.CircleImageView
+                    android:id="@+id/icon_img_account"
+                    android:layout_width="63dp"
+                    android:layout_height="63dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:elevation="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_user"
+                    app:border_color="#ed2941" />
+                <!--<com.facebook.drawee.view.SimpleDraweeView-->
+                    <!--android:id="@+id/icon_img_account"-->
+                    <!--android:layout_width="63dp"-->
+                    <!--android:layout_height="63dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginTop="40dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--fresco:placeholderImage="@drawable/icon_user"-->
+                    <!--fresco:placeholderImageScaleType="centerCrop"-->
+                    <!--fresco:roundAsCircle="true"/>-->
+
+                <ImageView
+
+                    android:id="@+id/ima_msg_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/layout_10dp"
+                    android:padding="@dimen/dimen_5dp"
+                    android:src="@drawable/ic_launcher"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/my_fragment_layout_appaly"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_20dp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="充值"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="余额: 15343.034"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_20dp"
+                    android:layout_weight="2.5"
+                    android:gravity="center_vertical"
+                    android:text="wzy"
+                    android:textSize="20sp"
+                    android:textColor="@color/yejianhuangse1"/>
+
+                <TextView
+                    android:id="@+id/my_fragment_tv_collect"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="收藏"
+                    android:textSize="20sp"
+                    android:textColor="@color/yejianhuangse1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="|"
+                    android:textColor="@color/yejianhuangse1"/>
+
+                <TextView
+                    android:id="@+id/my_fragment_tv_sendmoney"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="打赏"
+                    android:textColor="@color/yejianhuangse1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/my_fragment_layout_setting_price"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="设置拜师价格"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/b_right_back"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/my_fragment_layout_teacher"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="师徒"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/b_right_back"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/my_fragment_layout_send"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="发布"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/b_right_back"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/my_fragment_layout_audio"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="我购买的音频"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/b_right_back"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/my_fragment_layout_video"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="我购买的视频"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/b_right_back"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/my_fragment_layout_send_news"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="我发布的文章"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/b_right_back"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/my_fragment_layout_send_audio"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="我发布的音频"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/b_right_back"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/my_fragment_layout_send_video"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="我发布的视频"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/b_right_back"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

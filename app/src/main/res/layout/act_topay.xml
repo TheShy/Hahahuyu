@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_header_bar"></include>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="114dp"
+            android:layout_height="61dp"
+            android:id="@+id/imageView_tp_bg"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="@dimen/size_12"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/imageView_tp_bg"
+            android:layout_alignBottom="@+id/imageView_tp_bg"
+            android:layout_toRightOf="@+id/imageView_tp_bg"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/layout_10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/layout_24dp"
+                android:id="@+id/tv_hd_title_pay"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxEms="8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="@string/title_huodong_order"
+                android:textSize="@dimen/text_size"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxEms="15"
+                android:textColor="@color/color_999"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_huodong_count" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/divide_line_normal"
+        android:layout_height="@dimen/dimen_5dp"
+        android:background="@color/color_eeeeee"></View>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dimen_5dp"
+            android:text="@string/order_price"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tv_order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dimen_5dp"
+            android:textSize="@dimen/text_size" />
+
+    </LinearLayout>
+
+    <View style="@style/divide_line_normal"
+        android:layout_height="@dimen/dimen_5dp"
+        android:background="@color/color_eeeeee"></View>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dimen_5dp"
+            android:text="@string/order_bianhao"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tv_order_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dimen_5dp"
+            android:textSize="@dimen/text_size" />
+
+    </LinearLayout>
+
+    <View style="@style/divide_line_normal"
+        android:layout_height="@dimen/dimen_5dp"
+        android:background="@color/color_eeeeee"></View>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/method_payment">
+
+        <RadioButton
+            android:id="@+id/rb_yue"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/yezf"
+            android:padding="@dimen/layout_15dp"
+            android:drawableRight="@drawable/rb_fz_bg"
+            android:text="@string/yue_topay"
+            android:background="@color/white"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_wechatpay"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/wxzf"
+            android:padding="@dimen/layout_15dp"
+            android:drawableRight="@drawable/rb_fz_bg"
+            android:text="@string/wechat_payment"
+            android:background="@color/white"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rd_zhifubaopay"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/zfbzf"
+            android:padding="@dimen/layout_15dp"
+            android:drawableRight="@drawable/rb_fz_bg"
+            android:text="@string/alipay"
+            android:background="@color/white"></RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_forget_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_frame"
+        android:layout_marginRight="@dimen/margin_frame"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/n_button_bg"
+        android:text="@string/confirm"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/hint_size" />
+
+</LinearLayout>

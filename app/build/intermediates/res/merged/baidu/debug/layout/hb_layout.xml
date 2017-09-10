@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <com.touyuanren.hahahuyu.hongbao.HBSlidePanel
+        android:id="@+id/image_slide_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card:bottomMarginTop="38dp"
+        card:itemMarginTop="10dp"
+        card:yOffsetStep="26dp">
+
+        <LinearLayout
+            android:id="@+id/card_bottom_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/card_left_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp" />
+
+            <Button
+                android:id="@+id/card_right_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <com.touyuanren.hahahuyu.hongbao.HBItemView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.touyuanren.hahahuyu.hongbao.HBItemView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.touyuanren.hahahuyu.hongbao.HBItemView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.touyuanren.hahahuyu.hongbao.HBItemView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.touyuanren.hahahuyu.hongbao.HBSlidePanel>
+
+</LinearLayout>

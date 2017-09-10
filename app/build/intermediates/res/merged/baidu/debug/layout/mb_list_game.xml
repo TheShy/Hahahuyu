@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ima_haibao_game_mb"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/haibao" />
+
+    <TextView
+        android:id="@+id/tv_title_game_mb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:singleLine="true"
+        android:text="@string/xuanmei"
+        android:textColor="@color/black"
+        android:ellipsize="end"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_address_game_mb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/address_activity_detail"
+        android:textColor="@color/color_app_text"
+        android:textSize="@dimen/size_12" />
+
+    <TextView
+        android:id="@+id/tv_time_game_mb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/time_activity_detail"
+        android:textColor="@color/color_app_text" />
+
+
+</LinearLayout>

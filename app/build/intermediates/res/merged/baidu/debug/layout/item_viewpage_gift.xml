@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gift_layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_default_color"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gift1_btn"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="@dimen/layout_1dp"
+            android:layout_weight="1"
+            android:background="@drawable/gift1"
+            android:clickable="true"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="@dimen/layout_3dp"
+            android:text="@string/gift1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_11sp" />
+
+        <Button
+            android:id="@+id/gift2_btn"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="@dimen/layout_1dp"
+            android:layout_marginLeft="@dimen/layout_1dp"
+            android:layout_marginStart="@dimen/layout_1dp"
+            android:layout_weight="1"
+            android:background="@drawable/gift2"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="@dimen/layout_3dp"
+            android:text="@string/gift1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_11sp" />
+
+        <Button
+            android:id="@+id/gift3_btn"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="@dimen/layout_1dp"
+            android:layout_marginLeft="@dimen/layout_1dp"
+            android:layout_marginStart="@dimen/layout_1dp"
+            android:layout_weight="1"
+            android:background="@drawable/gift3"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="@dimen/layout_3dp"
+            android:text="@string/gift1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_11sp" />
+
+        <Button
+            android:id="@+id/gift4_btn"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="@dimen/layout_1dp"
+            android:layout_marginLeft="@dimen/layout_1dp"
+            android:layout_marginStart="@dimen/layout_1dp"
+            android:layout_weight="1"
+            android:background="@drawable/gift4"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="@dimen/layout_3dp"
+            android:text="@string/gift1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gift5_btn"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:layout_weight="1"
+            android:background="@drawable/gift5"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="@dimen/layout_3dp"
+            android:text="@string/gift1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_11sp" />
+
+        <Button
+            android:id="@+id/gift6_btn"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:layout_marginLeft="@dimen/layout_1dp"
+            android:layout_marginStart="@dimen/layout_1dp"
+            android:layout_weight="1"
+            android:background="@drawable/gift6"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="@dimen/layout_3dp"
+            android:text="@string/gift1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_11sp" />
+
+        <Button
+            android:id="@+id/gift7_btn"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:layout_marginLeft="@dimen/layout_1dp"
+            android:layout_marginStart="@dimen/layout_1dp"
+            android:layout_weight="1"
+            android:background="@drawable/gift7"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="@dimen/layout_3dp"
+            android:text="@string/gift1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_11sp" />
+
+        <Button
+            android:id="@+id/gift8_btn"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:layout_marginLeft="@dimen/layout_1dp"
+            android:layout_marginStart="@dimen/layout_1dp"
+            android:layout_weight="1"
+            android:background="@drawable/gift8"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="@dimen/layout_3dp"
+            android:text="@string/gift1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_11sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_1dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/layout_12dp"
+            android:paddingTop="@dimen/layout_14dp"
+            android:text="@string/choose_gift"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_1dp"
+            android:background="@color/background_default_color" />
+
+        <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/user_info_view_page"-->
+        <!--android:background="@color/background_default_color"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="188dp" />-->
+        <include layout="@layout/item_viewpage_gift"></include>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_1dp"
+            android:background="@color/background_default_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/reward_cancle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/layout_45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="@string/cancel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size" />
+
+            <Button
+                android:id="@+id/reward_sure"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/layout_45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/sure"
+                android:text="@string/reward"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<View-->
+        <!--android:id="@+id/bg"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#8000"-->
+        <!--android:visibility="invisible" />-->
+</FrameLayout>

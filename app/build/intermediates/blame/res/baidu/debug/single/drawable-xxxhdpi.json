@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxxhdpi\\near_me.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\generated\\res\\pngs\\baidu\\debug\\drawable-xxxhdpi\\near_me.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxxhdpi\\img_ds_bg.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxxhdpi\\img_ds_bg.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxxhdpi\\pencil.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\generated\\res\\pngs\\baidu\\debug\\drawable-xxxhdpi\\pencil.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxxhdpi\\ic_bookmark_24dp.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\generated\\res\\pngs\\baidu\\debug\\drawable-xxxhdpi\\ic_bookmark_24dp.png"
+    }
+]

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/common_header_bar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/send_tv_news"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/mainactivity_dialogpublish_rizhi"
+            android:gravity="center"
+            android:text="发布文章"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/send_tv_audio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/mainactivity_dialogpublish_shipin"
+            android:gravity="center"
+            android:text="发布音频"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/send_tv_vedio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/mainactivity_dialogpublish_dongtai"
+            android:gravity="center"
+            android:text="发布视频"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+

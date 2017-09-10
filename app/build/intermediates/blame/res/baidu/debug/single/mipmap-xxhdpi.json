@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\mipmap-xxhdpi\\share_normal.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\mipmap-xxhdpi\\share_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\mipmap-xxhdpi\\share_pressed.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\mipmap-xxhdpi\\share_pressed.png"
+    }
+]

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <include layout="@layout/common_header_bar"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_margin="@dimen/layout_10dp"
+            android:text="充值:"/>
+
+        <EditText
+            android:id="@+id/chongzhi_et_money"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/include"
+            android:layout_margin="@dimen/layout_10dp"
+            android:background="@drawable/et_stroke_bgm"
+            android:hint="请输入充值金额"
+            android:singleLine="true"
+            android:textColorHint="@color/edit_text_color"
+            android:textSize="@dimen/title_size" />
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/rg_pay_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_wechat_payorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wechat_pay"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_zhifubao_payorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/zhifubao_pay"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_yinlian_payorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yinlian_pay"
+            android:button="@null" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_topay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_confirm_pay"
+        android:text="确认充值"
+        android:layout_marginTop="@dimen/layout_10dp"
+        android:textSize="@dimen/size_14"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white" />
+</LinearLayout>

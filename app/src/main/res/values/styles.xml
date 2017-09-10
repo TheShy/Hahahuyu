@@ -1,0 +1,301 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="my_page_item_divider">
+        <item name="android:background">@color/gray_light</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+    <!--首页轮播-->
+    <style name="ButtonStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/color_ceshi</item>
+    </style>
+
+    <style name="main_tab_bottom">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/bottom_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/dimen_2dp</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="main_txt">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@drawable/txtcolor_gray2oran_sel1</item>
+    </style>
+    <style name="divide_line">
+        <item name="android:background">@color/gray_holo_dark</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:layout_marginBottom">3.0dip</item>
+    </style>
+    <!--主要布局中使用的分割线-->
+    <style name="divide_line2">
+        <item name="android:background">@color/gray_holo_light</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <!--主要布局中使用的分割线,,无边距-->
+    <style name="divide_line_null">
+        <item name="android:background">@color/color_999</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="toolbar_action">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_weight">0.0</item>
+    </style>
+
+    <!--最正常的浅色分割线-->
+    <style name="divide_line_normal">
+        <item name="android:background">@color/color_app_text</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+
+    <style name="centet_fragment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6.0dip</item>
+        <item name="android:textColor">@color/color_app_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+    </style>
+    <!--  选手报名界面文字 -->
+    <style name="text_baoming_activity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_app_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <!-- 首页分类 -->
+    <style name="divi_frag_shouye">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <!--选手报名界面edittext -->
+    <style name="edittext_baoming_activity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:background">@drawable/rect_white</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+
+    <!--分类搜索界面文字 -->
+    <style name="hunt_activity">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <item name="android:windowCloseOnTouchOutside">false</item>
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+    <!--活动详情底部按钮style-->
+    <style name="text_botton_detail">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--设置界面空白textView-->
+    <style name="blank_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--金榜界面设置的textview-->
+    <style name="text_jinbang_fragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!--下拉刷新的listview的style-->
+    <style name="List_Theme">
+        <item name="android:divider">@color/list_divider</item>
+        <item name="android:dividerHeight">@dimen/dimen_2dp</item>
+        <item name="android:cacheColorHint">@color/white</item>
+        <item name="android:footerDividersEnabled">@bool/list_footer_dividers_enabled</item>
+        <item name="android:headerDividersEnabled">@bool/list_header_dividers_enabled</item>
+        <item name="android:fastScrollEnabled">@bool/list_fast_scroll_enabled</item>
+    </style>
+    <!--&lt;!&ndash;viewpager_indicator的样式&ndash;&gt;-->
+    <!--CustomProgressDialog的样式-->
+    <style name="confirm_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!--活动详情页面文字统一样式-->
+    <style name="tv_huodong_detail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--活动详情页 底部导航-->
+    <style name="huodong_detail_tab_bottom">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/bottom_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="tablayoutIcon" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+    <!--去掉actionbar-->
+    <style name="NO_ACTIONBAR" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+
+        <!--&lt;!&ndash;隐藏ActionBar的标题&ndash;&gt;-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+    </style>
+    <!--个人中心主要文字样式：-->
+    <style name="text_add_address">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/color_app_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--个人中心中editText的统一格式-->
+    <style name="edit_text_user">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColorHint">#B8B8B8</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:background">@drawable/shape_dialog_hint_bg</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+
+    <!--城市选择，定位-->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cp_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/cp_colorPrimaryDark</item>
+        <item name="colorAccent">@color/cp_colorAccent</item>
+    </style>
+
+    <style name="CityPicker.NoActionBar" parent="BaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="LetterIndexTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">@dimen/side_letter_bar_width</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/cp_gray</item>
+    </style>
+
+    <!--发布动态，图标出入效果-->
+    <style name="main_publishdialog_style" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+
+    <style name="RecycleViewCommon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+    <!--修改tablayout 文字和下划线样式-->
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#0000FF</item>
+    </style>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+</resources>

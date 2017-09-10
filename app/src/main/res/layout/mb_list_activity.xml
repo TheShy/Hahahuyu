@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+    <!--首页活动列表的模板 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/haibao_img_mb"
+            android:layout_width="103dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/huodonghaibao"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/topic_activity_mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/color_app_text"
+            android:layout_toRightOf="@id/haibao_img_mb"
+            android:maxLines="2"
+            android:text="@string/xuanmei"
+            android:ellipsize="end"
+            android:textSize="18sp"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/address_activity_mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topic_activity_mb"
+            android:textColor="@color/color_app_text"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/haibao_img_mb"
+            android:text="@string/area_activity"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/start_time_activity_mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address_activity_mb"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/haibao_img_mb"
+            android:text="@string/activity_time_start"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/start_time_activity_mb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:layout_below="@id/address_activity_mb"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/start_time_activity_mb"
+            android:text="@string/start_time_activity"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/baoming_end_time_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:layout_below="@id/start_time_activity_mb"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/haibao_img_mb"
+            android:text="@string/baoming_end_time"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/baoming_end_time_activity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/start_time_activity_mb"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/baoming_end_time_activity"
+            android:textColor="@color/gray"
+            android:text="@string/baoming_end_time_activity"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/lable_activity_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/free_activity"
+            android:textColor="@color/color_ceshi"
+            android:textSize="12sp"
+            android:layout_alignTop="@+id/baoming_end_time_activity2"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+</LinearLayout>

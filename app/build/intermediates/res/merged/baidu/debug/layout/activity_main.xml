@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:id="@+id/fl_home_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:layout_gravity="center" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:paddingTop="2dp">
+
+        <com.touyuanren.hahahuyu.utils.spacenavigation.SpaceNavigationView
+            android:id="@+id/space_shouye"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:elevation="10dp"
+            app:layout_behavior="com.touyuanren.hahahuyu.utils.spacenavigation.SpaceNavigationViewBehavior"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_header_bar"></include>
+
+    <EditText
+        android:id="@+id/et_describ_pic_act"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="@string/add_describ_album"
+        android:gravity="left"
+        android:padding="@dimen/dimen_5dp"
+        android:background="@drawable/rect_white" />
+
+    <View
+        style="@style/divide_line_normal"
+        android:layout_marginTop="@dimen/layout_14dp"></View>
+
+    <LinearLayout
+        android:id="@+id/ll_select_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_5dp"
+            android:text="@string/upload_to"
+            android:textSize="@dimen/size_16" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_album_name_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_album"
+            android:textSize="@dimen/size_16" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_enter" />
+    </LinearLayout>
+
+    <View
+        style="@style/divide_line_normal"
+        android:layout_marginTop="@dimen/layout_10dp"></View>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_uploadpic_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_10dp" />
+
+</LinearLayout>

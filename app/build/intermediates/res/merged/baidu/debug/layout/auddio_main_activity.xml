@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_header_bar" />
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1dp"
+        android:background="@color/gray_light" />
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/hometab_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <RadioButton
+                android:id="@+id/audio_main_rbtn_txt"
+                style="@style/main_txt"
+                android:checked="true"
+                android:drawableTop="@drawable/b_newhome_tabbar_selector"
+                android:text="文章" />
+
+
+            <RadioButton
+                android:id="@+id/audio_main_rbtn_music"
+                style="@style/main_txt"
+                android:drawableTop="@drawable/b_newcare_tabbar_selector"
+                android:text="音频" />
+
+            <RadioButton
+                android:id="@+id/audio_main_rbtn_video"
+                style="@style/main_txt"
+                android:drawableTop="@drawable/b_newvideo_tabbar_selector"
+                android:text="视频" />
+
+            <RadioButton
+                android:id="@+id/audio_main_rbtn_my"
+                style="@style/main_txt"
+                android:drawableTop="@drawable/b_newnologin_tabbar_selector"
+                android:text="我的" />
+
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

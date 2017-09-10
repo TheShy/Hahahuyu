@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon_dongtai_user_item"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/layout_15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_source_dongtai_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_7dp"
+            android:layout_marginTop="@dimen/layout_15dp"
+            android:textSize="14sp"
+            android:layout_toRightOf="@id/icon_dongtai_user_item"
+            android:textColor="@color/color_app_text" />
+
+        <TextView
+            android:id="@+id/tv_content_dongtai_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_source_dongtai_item"
+            android:layout_marginLeft="@dimen/layout_7dp"
+            android:layout_toRightOf="@id/icon_dongtai_user_item"
+            android:textColor="@color/color_app_text"
+            android:textSize="@dimen/size_14" />
+
+        <com.touyuanren.hahahuyu.widget.GridviewForScrollView
+            android:id="@+id/gv_pic_dongtai_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_content_dongtai_item"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:layout_marginRight="@dimen/dimen_5dp"
+            android:layout_toRightOf="@id/icon_dongtai_user_item"
+            android:horizontalSpacing="@dimen/dimen_2dp"
+            android:numColumns="4"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_15dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/tv_dongtai_tiem_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:layout_marginRight="@dimen/layout_10dp"
+            android:text="@string/news_release_time"
+            android:textColor="@color/color_app_text" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comment_like_icon" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ima_comment_dongtai_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_10dp"
+            android:layout_marginRight="@dimen/layout_20dp"
+            android:src="@drawable/comment" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--打赏界面文字大小-->
+    <dimen name="text_11sp">11sp</dimen>
+    <!-- 主体文字大小 -->
+    <dimen name="text_size">16sp</dimen>
+
+    <!-- 提示文字大小 -->
+    <dimen name="hint_size">14sp</dimen>
+
+    <!-- 按钮文字大小 -->
+    <dimen name="button_size">16sp</dimen>
+    <!--16sp-->
+    <dimen name="size_16">16sp</dimen>
+    <dimen name="size_12">12sp</dimen>
+    <dimen name="size_14">14sp</dimen>
+    <dimen name="size_18">18sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+</resources>

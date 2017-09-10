@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_main"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/news_list_item_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ssss"
+            android:textColor="@color/news_gray_text"
+            android:layout_margin="@dimen/dimen_5dp"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:id="@+id/news_list_itme_iv_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/my_bgm"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dimen_5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="发布人:"
+                />
+
+            <TextView
+                android:id="@+id/news_list_item_tv_send_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="wzy"
+                android:gravity="center"
+                />
+            <ImageView
+                android:id="@+id/news_list_item_iv_send"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:src="@drawable/collect"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="浏览:"
+                />
+
+            <TextView
+                android:id="@+id/news_list_item_tv_look"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="1"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

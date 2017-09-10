@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="whitecolor">#FFFFFF</drawable>
+    <drawable name="blackcolor">#000000</drawable>
+    <drawable name="graycolor">#aaaaaa</drawable>
+    <drawable name="drawerdivider">#FFFFFF</drawable>
+    <!--<drawable name="theme_color">#1FAC75</drawable>-->
+    <drawable name="theme_color">#FF3300</drawable>
+    <drawable name="search_page_color">#60D1A3</drawable>
+    <drawable name="grid_background">#FFFDF1</drawable>
+    <!--<color name="theme_color">#1FAC75</color>-->
+    <color name="theme_color">#FF3300</color>
+</resources>

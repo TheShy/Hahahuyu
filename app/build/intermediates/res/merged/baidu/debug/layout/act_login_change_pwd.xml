@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              android:orientation = "vertical"
+              android:background="@color/bjb_bg_color"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent">
+
+    <include layout="@layout/common_header_bar"/>
+
+    <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/n_edittext_bg"
+            android:paddingRight="10dp"
+            android:paddingLeft="0dp"
+            android:layout_marginLeft="@dimen/margin_frame"
+            android:layout_marginRight="@dimen/margin_frame"
+            android:layout_marginTop="50dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/old_login_pwd"
+                android:textColor="#A2A3A3"/>
+
+        <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_D8D8D8"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        <EditText
+                android:id="@+id/et_old_login_password"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:inputType="numberPassword"
+                android:singleLine="true"
+                android:ellipsize="middle"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/old_login_pwd"
+                android:textColorHint="#DEDEDD"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/n_edittext_bg"
+            android:paddingRight="10dp"
+            android:paddingLeft="0dp"
+            android:layout_marginLeft="@dimen/margin_frame"
+            android:layout_marginRight="@dimen/margin_frame"
+            android:layout_marginTop="30dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/new_login_pwd"
+                android:textColor="#A2A3A3"/>
+
+        <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_D8D8D8"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        <EditText
+                android:id="@+id/et_new_login_password"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:inputType="numberPassword"
+                android:singleLine="true"
+                android:ellipsize="middle"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/new_login_pwd"
+                android:textColorHint="#DEDEDD"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/n_edittext_bg"
+            android:paddingRight="10dp"
+            android:paddingLeft="0dp"
+            android:layout_marginLeft="@dimen/margin_frame"
+            android:layout_marginRight="@dimen/margin_frame"
+            android:layout_marginTop="20dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/repeat_write"
+                android:textColor="#A2A3A3"/>
+
+        <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_D8D8D8"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        <EditText
+                android:id="@+id/et_repeat_login_password"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:inputType="numberPassword"
+                android:singleLine="true"
+                android:ellipsize="middle"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/confirm_new_login_pwd"
+                android:textColorHint="#DEDEDD"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+        <TextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text="@string/pwd_format"
+                android:textColor="#7B7B7B"/>
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/bt_commit"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:background="@drawable/n_button_bg"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/commit"/>
+
+</LinearLayout>

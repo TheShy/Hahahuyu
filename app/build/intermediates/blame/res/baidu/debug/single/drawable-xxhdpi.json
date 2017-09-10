@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\btn_selected.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\btn_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\img_ds_bg.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\img_ds_bg.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\ug_mine.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\ug_mine.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\default_check.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\default_check.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\asy.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\asy.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\music_list_img.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\music_list_img.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\text_indicator.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\text_indicator.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\qunliao.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\qunliao.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\asv.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\asv.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\xinpengyou.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\xinpengyou.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\default_error.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\default_error.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\play_btn_pause_prs.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\play_btn_pause_prs.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\btn_unselected.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\btn_unselected.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\music_icon.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\music_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\pencil.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\generated\\res\\pngs\\baidu\\debug\\drawable-xxhdpi\\pencil.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\ic_bookmark_24dp.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\generated\\res\\pngs\\baidu\\debug\\drawable-xxhdpi\\ic_bookmark_24dp.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\ug_yes.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\ug_yes.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\gongzonghao.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\src\\main\\res\\drawable-xxhdpi\\gongzonghao.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\drawable-xxhdpi\\near_me.png",
+        "source": "D:\\AndroidWorkspace\\android\\Hahahuyu\\app\\build\\generated\\res\\pngs\\baidu\\debug\\drawable-xxhdpi\\near_me.png"
+    }
+]

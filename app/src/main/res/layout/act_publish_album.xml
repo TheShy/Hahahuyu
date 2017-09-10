@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_header_bar"></include>
+
+    <EditText
+        android:id="@+id/et_title_album_act"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/layout_40dp"
+        android:layout_marginRight="@dimen/layout_40dp"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:background="@drawable/rect_white"
+        android:hint="@string/title_album" />
+
+    <EditText
+        android:id="@+id/et_describe_album_act"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="@dimen/layout_40dp"
+        android:layout_marginRight="@dimen/layout_40dp"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:background="@drawable/rect_white"
+        android:gravity="left"
+        android:hint="@string/describe_album" />
+
+
+</LinearLayout>

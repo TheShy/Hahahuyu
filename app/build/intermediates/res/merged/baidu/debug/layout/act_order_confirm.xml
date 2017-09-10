@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bjb_bg_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_header_bar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_hd_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:text="@string/title_huodong_order"
+            android:textSize="@dimen/size_18"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/layout_15dp"
+            android:textColor="@color/color_666666"
+            android:paddingRight="@dimen/layout_15dp" />
+
+        <View style="@style/divide_line_null"
+            android:background="@color/color_eeeeee"
+            android:layout_height="@dimen/size_16" />
+
+        <!--<View style="@style/divide_line_normal"></View>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/white"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingBottom="@dimen/dimen_5dp">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/dimen_5dp"-->
+        <!--android:layout_marginTop="@dimen/dimen_5dp"-->
+        <!--android:text="@string/ticket_name"-->
+        <!--android:textSize="@dimen/text_size" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/dimen_5dp"-->
+        <!--android:layout_marginTop="@dimen/dimen_5dp"-->
+        <!--android:text="@string/ticket_price_number" />-->
+        <!--</LinearLayout>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/layout_15dp"
+            android:text="@string/contact_user"
+            android:textColor="@color/color_ceshi"
+            android:textSize="@dimen/size_16" />
+
+        <View style="@style/divide_line_null"
+            android:background="@color/color_d7d7d7"
+            android:layout_marginLeft="@dimen/layout_15dp"
+            android:layout_marginRight="@dimen/layout_15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/layout_15dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_name"
+                    android:textColor="@color/color_666666"
+                    android:textSize="@dimen/size_16" />
+
+                <TextView
+                    android:id="@+id/tv_name_order_act"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_5dp"
+                    android:textSize="@dimen/size_16"
+                    android:textColor="@color/color_666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_baoming"
+                    android:textSize="@dimen/size_16"
+                    android:textColor="@color/color_666666" />
+
+                <TextView
+                    android:id="@+id/tv_phone_order_act"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_5dp"
+                    android:textSize="@dimen/size_16"
+                    android:textColor="@color/color_666666" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:background="@color/color_eeeeee"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_16"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_5dp"
+                    android:text="@string/selcect_ticket"
+                    android:textColor="@color/color_ceshi"
+                    android:layout_marginLeft="@dimen/layout_15dp"
+                    android:textSize="@dimen/size_16" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv_ticket_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginBottom="@dimen/layout_15dp"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:layout_marginRight="@dimen/dimen_5dp"></ListView>
+        </LinearLayout>
+
+        <View
+            android:background="@color/color_eeeeee"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_16"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawableEnd="@drawable/btn_enter"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:paddingTop="@dimen/dimen_5dp"
+            android:text="@string/refund_agreement"
+            android:layout_margin="@dimen/layout_15dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/color_ceshi"
+            android:textSize="@dimen/size_16" />
+
+        <View
+            android:background="@color/color_eeeeee"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_16"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--<TextView-->
+            <!--android:layout_width="20dp "-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/total"-->
+            <!--android:textSize="@dimen/text_size" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:textColor="@color/color_666666"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/tv_count_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_1dp"
+                android:textColor="@color/color_666666"
+                android:text="@string/total_price"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_topay_order"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_FF580F"
+            android:gravity="center"
+            android:text="@string/go_to_pay"
+            android:textColor="#ffffff"></TextView>
+    </LinearLayout>
+</LinearLayout>

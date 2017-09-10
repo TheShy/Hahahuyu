@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@color/color_search"
+    android:orientation="vertical">
+    <!--马拉松表单-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/xuanshoubaoming"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/back_btn_baoming"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_btn"
+            android:padding="6dp"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/mb_grid"></View>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/name_player" />
+
+                <EditText
+                    style="@style/edittext_baoming_activity"
+                    android:hint="@string/input_name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/select_sex" />
+
+                <RadioGroup
+                    android:id="@+id/RadioGroup01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_x="3px"
+                    android:layout_y="54px"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/RadioButton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/man" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="@string/woman" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/data_born" />
+
+                <EditText
+                    style="@style/edittext_baoming_activity"
+                    android:hint="@string/input_data_born" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/work" />
+
+                <EditText
+                    style="@style/edittext_baoming_activity"
+                    android:hint="@string/input_work" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/high_player" />
+
+                <EditText
+                    style="@style/edittext_baoming_activity"
+                    android:hint="@string/input_high_player" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/weight_player" />
+
+                <EditText
+                    style="@style/edittext_baoming_activity"
+                    android:hint="@string/input_weight_player" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/zuihaochengji" />
+
+                <EditText
+                    style="@style/edittext_baoming_activity"
+                    android:hint="@string/input_chengji_player" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/contact_user" />
+
+                <EditText
+                    style="@style/edittext_baoming_activity"
+                    android:hint="@string/input_contact_player" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/email_player" />
+
+                <EditText
+                    style="@style/edittext_baoming_activity"
+                    android:hint="@string/input_email_player" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/address_player" />
+
+                <EditText
+                    style="@style/edittext_baoming_activity"
+                    android:hint="@string/address_player" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/hobby_player" />
+
+                <EditText
+                    style="@style/edittext_baoming_activity"
+                    android:hint="@string/input_hobby_player" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_baoming_activity"
+                    android:text="@string/introduce_player" />
+
+
+            </LinearLayout>
+
+            <EditText
+                style="@style/edittext_baoming_activity"
+                android:hint="@string/input_introduce_player" />
+
+            <Button
+                style="@style/edittext_baoming_activity"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_green"
+                android:text="@string/confirm_submit"
+                android:textSize="19sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

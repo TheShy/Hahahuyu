@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/setting_head_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_search">
+
+    <com.touyuanren.hahahuyu.widget.CircleImageView
+        android:id="@+id/setting_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dimen_1dp"
+        android:layout_marginEnd="@dimen/dimen_1dp"
+        android:layout_marginRight="@dimen/dimen_1dp"
+        android:elevation="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_user"
+        app:border_color="#ed2941" />
+
+</LinearLayout>

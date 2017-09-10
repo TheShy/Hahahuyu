@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tool_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="45.0dip"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/detail_tool_bar_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="15.0dip"
+    android:paddingRight="15.0dip">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <View
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            />
+        <ImageView
+            android:id="@+id/incled_iv_collect"
+            android:src="@drawable/collect"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+        <ImageView
+            android:id="@+id/incled_iv_das"
+            android:src="@drawable/aaacard_left1"
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+        <ImageView
+            android:id="@+id/incled_iv_commit"
+            android:src="@drawable/top_pinglun"
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+</LinearLayout>

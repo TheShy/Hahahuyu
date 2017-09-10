@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_header_bar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_5dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_recharge_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_20dp"
+            android:layout_marginRight="@dimen/layout_20dp"
+            android:layout_marginTop="@dimen/layout_10dp"
+            android:background="@drawable/circular_rect"
+            android:hint="@string/write_recharge_amount"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#A3A3A3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_10dp"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:paddingTop="@dimen/dimen_5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:text="@string/method_payment"
+                android:textColor="@color/title_bg_color"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/btn_enter"
+                android:text="@string/payment_introduce" />
+
+        </LinearLayout>
+
+        <View style="@style/divide_line_normal"></View>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/method_payment">
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/wechat_payment"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rd_zhifubao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alipay"></RadioButton>
+        </RadioGroup>
+        <Button
+            android:id="@+id/bt_forget_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_frame"
+            android:layout_marginRight="@dimen/margin_frame"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/n_button_big"
+            android:text="@string/to_pay"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/hint_size" />
+    </LinearLayout>
+
+</LinearLayout>

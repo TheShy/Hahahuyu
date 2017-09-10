@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/layout_10dp"
+    android:paddingRight="@dimen/layout_10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_10dp">
+        <com.touyuanren.hahahuyu.widget.CircleImageView
+            android:id="@+id/sdv_user_log_item"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:elevation="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_user"
+            app:border_color="#ed2941" />
+        <!--<com.facebook.drawee.view.SimpleDraweeView-->
+            <!--android:id="@+id/sdv_user_log_item"-->
+            <!--android:layout_width="36dp"-->
+            <!--android:layout_height="36dp"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--fresco:placeholderImage="@drawable/icon_user"-->
+            <!--fresco:placeholderImageScaleType="centerCrop"-->
+            <!--fresco:roundAsCircle="true" />-->
+
+        <TextView
+            android:id="@+id/tv_nickname_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:layout_toRightOf="@id/sdv_user_log_item"
+            android:text="@string/nickname"
+            android:textColor="@color/color_app_text"
+            android:textSize="@dimen/size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_logtime_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_nickname_item"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:layout_toRightOf="@id/sdv_user_log_item"
+            android:text="@string/log_time_item"
+            android:textColor="@color/color_app_text"
+            android:textSize="@dimen/size_12" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_logtitle_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_title_item"
+        android:textColor="@color/color_app_text"
+        android:textSize="@dimen/size_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_logcontent_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:ellipsize="end"
+        android:lines="3"
+        android:text="@string/log_content_item"
+        android:textColor="@color/color_app_text"
+        android:textSize="@dimen/text_size" />
+
+    <com.touyuanren.hahahuyu.widget.GridviewForScrollView
+        android:id="@+id/gv_pic_log_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_5dp"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:layout_marginRight="@dimen/dimen_5dp"
+        android:horizontalSpacing="@dimen/dimen_5dp"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:verticalSpacing="@dimen/dimen_5dp" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+
+        <TextView
+            android:id="@+id/tv_nickname_log_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:layout_weight="1"
+            android:textColor="@color/color_app_text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comment_like_icon" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_10dp"
+            android:src="@drawable/share_32px" />
+
+        <ImageView
+            android:id="@+id/ima_comment_log_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_10dp"
+            android:layout_marginRight="@dimen/layout_20dp"
+            android:src="@drawable/comment" />
+    </LinearLayout>
+</LinearLayout>

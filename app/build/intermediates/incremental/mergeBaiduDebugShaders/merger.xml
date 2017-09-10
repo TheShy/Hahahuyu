@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\AndroidWorkspace\android\Hahahuyu\app\src\main\shaders"/></dataSet><dataSet config="baidu"><source path="D:\AndroidWorkspace\android\Hahahuyu\app\src\baidu\shaders"/></dataSet><dataSet config="debug"><source path="D:\AndroidWorkspace\android\Hahahuyu\app\src\debug\shaders"/></dataSet><dataSet config="baiduDebug"><source path="D:\AndroidWorkspace\android\Hahahuyu\app\src\baiduDebug\shaders"/></dataSet></merger>
